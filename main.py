@@ -1,5 +1,5 @@
 from lexer import Lexer
-from parser import Parser
+from syntacticanalysis import Parser
 
 text_input = """
 print(4 + 4 - 2);

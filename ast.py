@@ -1,12 +1,12 @@
-class Number:
-    def __init__(self):
+class Number():
+    def __init__(self, value):
         self.value = value
 
     def eval(self):
         return int(self.value)
 
 
-class BinaryOp:
+class BinaryOp():
     def __init__(self, left, right):
         self.left = left
         self.right = right
@@ -23,7 +23,7 @@ class Sub(BinaryOp):
 
 
 class Print():
-    def __int__(self):
+    def __int__(self, value):
         self.value = value
 
     def eval(self):
