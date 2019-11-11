@@ -1,6 +1,7 @@
 from rply import LexerGenerator
 
-class Lexer()
+
+class Lexer:
     def __init__(self):
         self.lexer = LexerGenerator()
 
